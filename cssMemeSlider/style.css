@@ -230,7 +230,7 @@ input {
     }
     
     .slider{
-        width: 80%;
+        width: 84%; /*80%*/
     }
     .slider__img-holder{
         width: 400%;
@@ -240,7 +240,7 @@ input {
         width: 100%;
     }
     .info-wrapper{
-        width: 80%;
+        width: 84%; /*80*/
         flex-direction: row;
         justify-content: space-between;
     }
@@ -248,7 +248,7 @@ input {
     .description__visible{
         order: 1;
         flex-grow: 3;
-        width: 80%;
+        width: 84%; /*80*/
     }
 
     .description__wrapper{
@@ -256,6 +256,7 @@ input {
     }
     .description {
         font-size: 1.25rem;
+        width: 40rem;
     }
 
     .paginator-btns{
@@ -275,7 +276,7 @@ input {
     }
     
     .slider{
-        width: 80%;
+        width: 88%;/*80*/
     }
     .slider__img-holder{
         width: 400%;
@@ -285,7 +286,7 @@ input {
         width: 100%;
     }
     .info-wrapper{
-        width: 80%;
+        width: 88%; /*80*/
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -318,7 +319,7 @@ input {
         padding-inline: 1%;
     }
     .slider{
-        width: 90%;
+        width: 90%; 
     }
     .slider__img-holder{
         width: 400%;
