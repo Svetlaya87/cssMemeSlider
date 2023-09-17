@@ -15,6 +15,15 @@ body {
     justify-content: center;
 }
 
+.slider {
+    order: 1;
+}
+.info-wrapper {
+    order: 2;
+}
+
+
+
 .paginator-btns {
     width: 100%;
     display: flex;
@@ -34,7 +43,7 @@ body {
     cursor: pointer;
 }
 
-.btn-wrapper input {
+input {
     display: none;
 }
 .input {
@@ -65,13 +74,52 @@ body {
     transition: all 0.5s ease;
 }
 
-input[type=radio]:checked + .input {
+/*
+.container-sv input[type=radio]:checked ~ .input {
     
     background-color: #ffffff;
     border: 0.06rem solid #d452e0;
 
     
     transition: all 0.5s ease;
+}*/
+
+#img1:checked ~ .info-wrapper .input1,
+#img2:checked ~ .info-wrapper .input2,
+#img3:checked ~ .info-wrapper .input3,
+#img4:checked ~ .info-wrapper .input4 {
+    
+    background-color: #ffffff;
+    border: 0.06rem solid #d452e0;
+
+    
+    transition: all 0.5s ease;
+}
+
+ 
+
+
+
+.slider__img-holder {
+   
+    transform: translateX(0%);
+    transition: transform 0.5s ease-in;
+}
+
+#img1:checked ~ .slider .slider__img-holder{
+    transform: translateX(0%);
+}
+
+#img2:checked ~ .slider .slider__img-holder{
+    transform: translateX(-50%);
+}
+
+#img3:checked ~ .slider .slider__img-holder{
+    transform: translateX(-100%);
+}
+
+#img4:checked ~ .slider .slider__img-holder{
+    transform: translateX(-150%);
 }
 
 @media screen and (width > 1200px){
@@ -86,6 +134,8 @@ input[type=radio]:checked + .input {
         width: 200%;
         display: flex;
         flex-wrap: nowrap;
+        transform: translateX(0px);
+        transition: transform 0.5s ease-in;
     }
 
     .image {
