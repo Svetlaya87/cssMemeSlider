@@ -221,7 +221,7 @@ input {
         flex-grow: 1;
     }
 }
-@media screen and (width >= 1160px) and (width <=1259px){
+@media screen and (width >= 992px) and (width <=1259px){/* (width >= 1160px) and (width <=1259px)*/
     .slider{
         width: 80%;
     }
@@ -261,7 +261,7 @@ input {
 }
 
 
-@media screen and (width >= 880px) and (width <=1159px){
+@media screen and (width >= 880px) and (width <=991px){ /*(width >= 880px) and (width <=1159px)*/
     .slider{
         width: 80%;
     }
