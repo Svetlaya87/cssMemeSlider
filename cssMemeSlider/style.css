@@ -24,6 +24,7 @@ body {
     width: 37.5rem;
     object-fit: cover;
     aspect-ratio: 16/9;
+    transition: all 0.8s ease-in-out;
 }
 
 
@@ -354,7 +355,7 @@ input {
         width: 100%;
     }
     .info-wrapper{
-        width: 90%;
+        width: 96%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -394,7 +395,7 @@ input {
         width: 25%;
     }
     .info-wrapper{
-        width: 90%;
+        width: 96%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
