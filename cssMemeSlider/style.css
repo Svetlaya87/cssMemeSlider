@@ -251,7 +251,7 @@ input {
 }
 
 
-@media screen and (width >= 750px) and (width <=1159px){
+@media screen and (width >= 880px) and (width <=1159px){
     .slider{
         width: 80%;
     }
