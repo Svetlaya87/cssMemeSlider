@@ -5,6 +5,7 @@ body {
     box-sizing: border-box;
     background-color: #ffffff;
     scroll-behavior: smooth;
+    font-family: Arial;
 }
 
 .container-sv{
@@ -176,7 +177,7 @@ input {
 @media screen and (width >= 1260px) {
     .description {
         width: 79rem; /*rem*/
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .slider{
@@ -290,5 +291,127 @@ input {
         flex-grow: 1;
     }
 }
+
+@media screen and (width >= 750px) and (width <=879px){
+    .slider{
+        width: 90%;
+    }
+    .slider__img-holder{
+        width: 400%;
+    }
+
+    .image{
+        width: 100%;
+    }
+    .info-wrapper{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description__visible{
+        
+        flex-grow: 3;
+        width: 100%;
+    }
+
+    .description__wrapper{
+        width: 400%;
+    }
+    .description {
+        font-size: 1.25rem;
+        width: 55rem;
+    }
+
+    .paginator-btns{
+        width: 50%;
+        justify-content: center;
+        
+        flex-grow: 1;
+    }
+}
+
+
+@media screen and (width >= 720px) and (width <=749px){
+    .slider{
+        width: 96%;
+    }
+    .slider__img-holder{
+        width: 400%;
+    }
+
+    .image{
+        width: 100%;
+    }
+    .info-wrapper{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description__visible{
+        
+        flex-grow: 3;
+        width: 100%;
+    }
+
+    .description__wrapper{
+        width: 400%;
+    }
+    .description {
+        font-size: 1.3rem;
+        width: 55rem;
+    }
+
+    .paginator-btns{
+        width: 50%;
+        justify-content: center;
+        
+        flex-grow: 1;
+    }
+}
+
+@media screen and (width >= 320px) and (width <=719px){
+    .slider{
+        width: 96%;
+    }
+    .slider__img-holder{
+        width: 400%;
+    }
+
+    .image{
+        width: 25%;
+    }
+    .info-wrapper{
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description__visible{
+        
+        flex-grow: 3;
+        width: 100%;
+    }
+
+    .description__wrapper{
+        width: 400%;
+    }
+    .description {
+        font-size: 1.3rem;
+        width: 55rem;
+    }
+
+    .paginator-btns{
+        width: 50%;
+        justify-content: center;
+        
+        flex-grow: 1;
+    }
+}
+
 
 
