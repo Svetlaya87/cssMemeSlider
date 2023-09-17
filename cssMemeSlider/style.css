@@ -90,11 +90,11 @@ input {
 }
 
 .btn-wrapper:active .input {
-    background-color: #d452e0;
-    border: 0.06rem solid #d452e0;
+    background-color: #e7d33a;
+    border: 0.06rem solid #e7d33a;
 
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.3s ease-in-out;
 }
 
 
