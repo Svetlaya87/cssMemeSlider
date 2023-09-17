@@ -32,7 +32,7 @@ body {
     padding-bottom: 0.875rem ;
 }
 .info-wrapper {
-    width: 100%;
+    width: 37.5rem;
     order: 2;
 
     display: flex;
@@ -117,21 +117,21 @@ input {
 }
 
 .description__visible {
-    width: 50%;
+    width: 100%;
     display: flex;
     overflow-x: hidden;
     align-self: center;
 }
 .description__wrapper{
 
-    width: 1403px;
+    /*width: 1403px;*/
     display: flex;
     transform: translateX(0%);
     transition: transform 0.8s ease-in-out;
 }
 
 .description {
-    width: fit-content;
+    width: 37.5rem;
     display: flex;
     flex-wrap: nowrap;
     /*white-space: nowrap;*/
