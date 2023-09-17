@@ -15,7 +15,19 @@ body {
     justify-content: center;
 }
 
+
+
+
+
+.image {
+    width: 37.5rem;
+    object-fit: cover;
+}
+
+
 .slider {
+    width: 37.5rem;
+    overflow-x: hidden;
     order: 1;
     padding-bottom: 0.875rem ;
 }
@@ -81,6 +93,7 @@ input {
     transition: all 0.5s ease;
 }
 
+
 /*
 .container-sv input[type=radio]:checked ~ .input {
     
@@ -128,7 +141,9 @@ input {
 
 
 .slider__img-holder {
-   
+    width: 150rem;
+    display: flex;
+    
     transform: translateX(0%);
     transition: transform 0.8s ease-in-out;
 }
@@ -140,18 +155,22 @@ input {
 
 #img2:checked ~ .slider .slider__img-holder,
 #img2:checked ~ .info-wrapper .description__wrapper{
-    transform: translateX(-50%);
+    transform: translateX(-25%);
 }
 
 #img3:checked ~ .slider .slider__img-holder,
 #img3:checked ~ .info-wrapper .description__wrapper{
-    transform: translateX(-100%);
+    transform: translateX(-50%);
 }
 
 #img4:checked ~ .slider .slider__img-holder,
 #img4:checked ~ .info-wrapper .description__wrapper{
-    transform: translateX(-150%);
+    transform: translateX(-75%);
 }
+
+
+
+
 
 @media screen and (width > 1200px){
     .container-sv{
