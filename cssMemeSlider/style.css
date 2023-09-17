@@ -312,6 +312,13 @@ input {
         
         flex-grow: 1;
     }
+
+    #img1:checked ~ .info-wrapper .btn-wrapper:hover .input1,
+    #img2:checked ~ .info-wrapper .btn-wrapper:hover .input2,
+    #img3:checked ~ .info-wrapper .btn-wrapper:hover .input3,
+    #img4:checked ~ .info-wrapper .btn-wrapper:hover .input4 {
+        border: 0.06rem solid #d452e0;
+    }
 }
 
 @media screen and (width >= 750px) and (width <=879px){
@@ -354,6 +361,13 @@ input {
         justify-content: center;
         
         flex-grow: 1;
+    }
+
+    #img1:checked ~ .info-wrapper .btn-wrapper:hover .input1,
+    #img2:checked ~ .info-wrapper .btn-wrapper:hover .input2,
+    #img3:checked ~ .info-wrapper .btn-wrapper:hover .input3,
+    #img4:checked ~ .info-wrapper .btn-wrapper:hover .input4 {
+        border: 0.06rem solid #d452e0;
     }
 }
 
@@ -400,6 +414,13 @@ input {
         
         flex-grow: 1;
     }
+
+    #img1:checked ~ .info-wrapper .btn-wrapper:hover .input1,
+    #img2:checked ~ .info-wrapper .btn-wrapper:hover .input2,
+    #img3:checked ~ .info-wrapper .btn-wrapper:hover .input3,
+    #img4:checked ~ .info-wrapper .btn-wrapper:hover .input4 {
+        border: 0.06rem solid #d452e0;
+    }
 }
 
 @media screen and (width >= 320px) and (width <=719px){
@@ -443,6 +464,13 @@ input {
         justify-content: center;
         
         flex-grow: 1;
+    }
+
+    #img1:checked ~ .info-wrapper .btn-wrapper:hover .input1,
+    #img2:checked ~ .info-wrapper .btn-wrapper:hover .input2,
+    #img3:checked ~ .info-wrapper .btn-wrapper:hover .input3,
+    #img4:checked ~ .info-wrapper .btn-wrapper:hover .input4 {
+        border: 0.06rem solid #d452e0;
     }
 }
 
