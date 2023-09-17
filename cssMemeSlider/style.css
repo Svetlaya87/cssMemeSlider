@@ -22,6 +22,7 @@ body {
 .image {
     width: 37.5rem;
     object-fit: cover;
+    aspect-ratio: 16/9;
 }
 
 
@@ -172,24 +173,39 @@ input {
 
 
 
-@media screen and (width > 1200px){
-    .container-sv{
-        width: 100%;
+@media screen and (width >= 1200px){
+    .slider{
+        width: 80%;
     }
-    .slider {
-        width: 50%;
-        overflow-x: hidden;
-    }
-    .slider__img-holder {
-        width: 200%;
-        display: flex;
-        flex-wrap: nowrap;
-        /*transform: translateX(0px);*/
-        /*transition: transform 0.8s ease-in-out;*/
+    .slider__img-holder{
+        width: 400%;
     }
 
-    .image {
+    .image{
+        width: 100%;
+    }
+    .info-wrapper{
+        width: 80%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .description__visible{
+        order: 1;
+        flex-grow: 3;
+        width: 80%;
+    }
+
+    .description__wrapper{
+        width: 400%;
+    }
+
+    .paginator-btns{
         width: 50%;
-        object-fit: cover;
+        justify-content: flex-end;
+        order: 2;
+        flex-grow: 1;
     }
 }
+
+
