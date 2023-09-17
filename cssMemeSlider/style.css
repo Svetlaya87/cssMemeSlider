@@ -103,7 +103,7 @@ input {
 .slider__img-holder {
    
     transform: translateX(0%);
-    transition: transform 0.5s ease-in;
+    transition: transform 0.8s ease-in-out;
 }
 
 #img1:checked ~ .slider .slider__img-holder{
@@ -134,8 +134,8 @@ input {
         width: 200%;
         display: flex;
         flex-wrap: nowrap;
-        transform: translateX(0px);
-        transition: transform 0.5s ease-in;
+        /*transform: translateX(0px);*/
+        /*transition: transform 0.8s ease-in-out;*/
     }
 
     .image {
