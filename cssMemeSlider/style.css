@@ -115,7 +115,14 @@ input {
     border: 0.06rem solid #d452e0;
 
     
-    transition: all 0.5s ease;
+    transition: all 0.8s ease-in-out;
+}
+
+#img1:checked ~ .info-wrapper .btn-wrapper:hover .input1,
+#img2:checked ~ .info-wrapper .btn-wrapper:hover .input2,
+#img3:checked ~ .info-wrapper .btn-wrapper:hover .input3,
+#img4:checked ~ .info-wrapper .btn-wrapper:hover .input4{
+    border: 0.06rem solid rgb(72, 170, 190);
 }
 
 .description__visible {
